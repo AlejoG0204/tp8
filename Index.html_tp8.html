@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Decoration_tp8.css">
+    <link rel="icon" type="image/png" href="Assets/Img/Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="Javascript_tp8.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1/2 Naranja</title>
+</head>
+<body class="ColorFondo">
+    
+    <header>
+        <nav>
+            <div style="background-color:#edba3d;margin-bottom: 20px; height: 25px; width: 100%;" class="barra;"></div>
+            <ul>
+                <li>
+                    <img src="Assets/Img/LogoMediaNaranja.svg" class="logo">
+                </li>
+                <li class="user-access">
+                        <i class="fa-solid fa-circle-user" id="user_icon"></i>
+                </li>
+                <li class="social-networks">
+                    <a href="https://www.facebook.com/?locale=es_ES" style="color: black; text-decoration: none;">@MediaNaranjaOficial
+                        <i class="fa-brands fa-facebook"></i><br>
+                    </a>
+                    <a href="https://www.instagram.com/" style="color: black; text-decoration: none;">@medianaranjaok
+                        <i class="fa-brands fa-square-instagram"></i><br>
+                    </a>
+                    <a href="https://x.com/?lang=es" style="color: black; text-decoration: none;">@MediaNaranja1
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="social-buttons">
+        <a class="social-buttons__button-facebook" href="https://www.facebook.com/?locale=es_ES">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a class="social-buttons__button-instagram" href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="social-buttons__button-twitter" href="https://x.com/?lang=es">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+    </div>
+
+    <section class="buttons-container">
+        <div class="search-bar">
+            <button style="border: none;" class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input type="search" placeholder=" Buscar..." style="height: 36px; border: none; width: 50%;" id="searchbar">
+        </div>
+    </section>
+
+    <div class="menu-buttons" id="menubuttons">
+        <button class="vegetables-btn">
+            <a href="#verduras" style="color: black; text-decoration: none;">Verduras</a>
+        </button>
+        <button class="fruits-btn">Frutas</button>
+        <button class="promotions-btn">Promociones</button>
+        <button class="help-btn">Ayuda</button>
+    </div>
+
+    <div class="background">
+        <div class="button-image">
+            <h1 class="best-quality">LA MEJOR CALIDAD DIRECTO A TU HOGAR</h1>
+            <h4 class="best-quality">Verduleria Online</h4>
+            <button class="buy-now-btn">Empezá a comprar</button>
+        </div>
+        <img src="Assets/Img/paisaje-soleado-de-pradera.jpg" class="background" alt="Meadow background">
+    </div>
+
+    <!-- Products section -->
+    <section class="products__container" aria-label="Verduras destacadas">
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_lechuga.png" alt="Lechuga fresca" />
+            <span class="product-name">Lechuga</span>
+        </div>
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_tomate.png" alt="Tomate jugoso" />
+            <span class="product-name">Tomate</span>
+        </div>
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_zanahoria.png" alt="Zanahoria crocante" />
+            <span class="product-name">Zanahoria</span>
+        </div>
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_papa.png" alt="Papa seleccionada" />
+            <span class="product-name">Papa</span>
+        </div>
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_palta.png" alt="Palta madura" />
+            <span class="product-name">Palta</span>
+        </div>
+        <div class="product-card">
+            <img src="Assets/Img/imagenes varias/circulo_zapallo.png" alt="Zapallo dulce" />
+            <span class="product-name">Zapallo</span>
+        </div>
+    </section>
+
+    <!-- Comments section -->
+    <section>
+        <div id="comentarios-section"></div>
+    </section>
+
+    <script src="Javascript_tp8.js"></script>
+</body>
+</html>
